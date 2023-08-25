@@ -1,0 +1,32 @@
+.el-button {
+	font-size: 12px;
+}
+
+/* 表格 */
+.el-table .cell {
+	font-size: 13px;
+}
+.el-table table th.el-table__cell {
+	background-color: #f8f7fc;
+}
+
+/* 分页 */
+.el-pagination {
+	justify-content: flex-end;
+	margin-top: 15px;
+}
+
+/* 弹框 */
+.el-dialog__header {
+	font-weight: 600;
+	padding: 15px 15px;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.el-dialog .el-dialog__footer {
+	padding: 15px 15px;
+	border-top: 1px solid #e7e7e7;
+}
+.el-dialog .el-dialog__headerbtn {
+	top: 0;
+}

@@ -1,0 +1,44 @@
+.el-container {
+	width: 100%;
+	height: 100%;
+	:deep(.el-header) {
+		height: 40px;
+	}
+	.classic-content {
+		display: flex;
+		height: 100%;
+		.aside-box {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			transition: width 0.3s ease;
+			position: relative;
+			margin-right: 15px;
+			background-color: var(--el-menu-bg-color);
+			border-right: 1px solid var(--el-aside-border-color);
+			.el-menu {
+				width: 100%;
+				overflow-x: hidden;
+				border-right: none;
+			}
+		}
+	}
+	.layout_main {
+		padding: 10px 10px 10px 10px;
+	}
+	.side_collapsed {
+		position: absolute;
+		top: 50%;
+		right: -12px;
+		transform: translate(0, -50%);
+		width: 12px;
+		height: 34px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--el-color-primary);
+		border-radius: 0px 4px 4px 0px;
+		color: #fff;
+		cursor: pointer;
+	}
+}

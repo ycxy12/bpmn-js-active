@@ -1,0 +1,100 @@
+{
+	"code": 200,
+	"message": "成功",
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "/home/index",
+			"meta": {
+				"icon": "HomeFilled",
+				"title": "流程定义",
+				"isLink": "",
+				"isHide": false,
+				"isFull": false,
+				"isKeepAlive": true
+			},
+			"children": [
+				{
+					"path": "/home/modeler",
+					"name": "homeModeler",
+					"component": "/home/modeler",
+					"meta": {
+						"icon": "",
+						"title": "流程定义-详情",
+						"activeMenu": "/home",
+						"isLink": "",
+						"isHide": true,
+						"isFull": false,
+						"isKeepAlive": true
+					}
+				}
+			]
+		},
+		{
+			"path": "/flow",
+			"name": "flow",
+			"component": "/flow/index",
+			"meta": {
+				"icon": "Flag",
+				"title": "流程图",
+				"isLink": "",
+				"isHide": false,
+				"isFull": false,
+				"isKeepAlive": true
+			}
+		},
+		{
+			"path": "/form",
+			"name": "form",
+			"component": "/form/index",
+			"meta": {
+				"icon": "Memo",
+				"title": "绘制表单",
+				"isLink": "",
+				"isHide": false,
+				"isFull": false,
+				"isKeepAlive": true
+			}
+		},
+		{
+			"path": "/list",
+			"name": "list",
+			"component": "/list/index",
+			"meta": {
+				"icon": "SwitchFilled",
+				"title": "表单列表",
+				"isLink": "",
+				"isHide": false,
+				"isFull": false,
+				"isKeepAlive": true
+			}
+		},
+		{
+			"path": "/start",
+			"name": "start",
+			"component": "/start/index",
+			"meta": {
+				"icon": "SwitchFilled",
+				"title": "发起流程",
+				"isLink": "",
+				"isHide": false,
+				"isFull": false,
+				"isKeepAlive": true
+			}
+		},
+		{
+			"path": "/task",
+			"name": "task",
+			"component": "/task/index",
+			"meta": {
+				"icon": "SwitchFilled",
+				"title": "待办任务",
+				"isLink": "",
+				"isHide": false,
+				"isFull": false,
+				"isKeepAlive": true
+			}
+		}
+	]
+}
